@@ -18,7 +18,7 @@ public class TestList {
       list.insert('C');
       list.insert('D');
       list.insert('E');
-      assertEquals('A', list);
+      assertEquals('B', list.mostFrequentElement());
    }
    @Test
    public void testMostFrequentElement2()
@@ -28,14 +28,14 @@ public class TestList {
       list.insert('A');
       list.insert('A');
       list.insert('A');
-      assertEquals('A', list);
+      assertEquals('A', list.mostFrequentElement());
    }
    @Test
    public void testMostFrequentElement3()
    {
       LinkedList<String> list = new LinkedList<String>();
       list.insert("Hello");
-      assertEquals("Hello", list);
+      assertEquals("Hello", list.mostFrequentElement());
    }
    @Test
    public void testMostFrequentElement4()
@@ -46,7 +46,7 @@ public class TestList {
       list.insert('A');
       list.insert('B');
       list.insert('B');
-      assertEquals('B', list);
+      assertEquals('B', list.mostFrequentElement());
    }
    @Test
    public void testMostFrequentElement5()
