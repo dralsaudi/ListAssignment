@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.project.TestString1" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-09-03T21:55:09" hostname="AbdulrahmansMBP" time="0.011">
-  <properties/>
-  <testcase name="testString1Reverse()" classname="com.example.project.TestString1" time="0.008"/>
-  <testcase name="testString1Equal()" classname="com.example.project.TestString1" time="0.001"/>
-  <testcase name="testString1()" classname="com.example.project.TestString1" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

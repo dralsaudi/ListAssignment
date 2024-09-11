@@ -20,6 +20,7 @@ public class TestList {
       list.insert('E');
       assertEquals('A', list);
    }
+   @Test
    public void testMostFrequentElement2()
    {
       LinkedList<Character> list = new LinkedList<Character>();
@@ -29,12 +30,14 @@ public class TestList {
       list.insert('A');
       assertEquals('A', list);
    }
+   @Test
    public void testMostFrequentElement3()
    {
       LinkedList<String> list = new LinkedList<String>();
       list.insert("Hello");
       assertEquals("Hello", list);
    }
+   @Test
    public void testMostFrequentElement4()
    {
       LinkedList<Character> list = new LinkedList<Character>();
@@ -45,6 +48,7 @@ public class TestList {
       list.insert('B');
       assertEquals('B', list);
    }
+   @Test
    public void testMostFrequentElement5()
    {
       LinkedList<Integer> list = new LinkedList<Integer>();
